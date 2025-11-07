@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Development Club</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- AOS (Scroll Animation Library) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Typed.js for typing effect -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  
+  <!-- Particles.js for animated background -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+  <!-- Background Particles -->
+  <div id="particles-js"></div>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Career Development Club</h1>
+      <h2><span id="typed"></span></h2>
+      <a href="#about" class="btn">Know More</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section" data-aos="fade-right">
+    <h2>About Us</h2>
+    <p>
+      The Career Development Club empowers students to explore skills, innovation, 
+      and technology. We aim to help learners grow through hands-on projects, 
+      real-world events, and continuous mentorship.
+    </p>
+  </section>
+
+  <!-- Domains Section -->
+  <section id="domains" class="section" data-aos="zoom-in">
+    <h2>Our Domains</h2>
+    <div class="cards">
+      <div class="card">💻 Web Development</div>
+      <div class="card">🤖 AI & ML</div>
+      <div class="card">📱 App Development</div>
+      <div class="card">⚙️ Hackathons & Projects</div>
+      <div class="card">💬 Workshops</div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="section" data-aos="fade-left">
+    <h2>Events & Activities</h2>
+    <p>Our events inspire collaboration and innovation among students.</p>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/250x150" alt="Event 1">
+      <img src="https://via.placeholder.com/250x150" alt="Event 2">
+      <img src="https://via.placeholder.com/250x150" alt="Event 3">
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="section" data-aos="fade-up">
+    <h2>Our Team</h2>
+    <div class="team">
+      <div class="member">
+        <img src="https://via.placeholder.com/100" alt="President">
+        <h3>President</h3>
+        <p>Vanshika Patil</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/100" alt="Vice President">
+        <h3>Vice President</h3>
+        <p>Vanshika Patil</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Us Section -->
+  <section id="join" class="section" data-aos="fade-down">
+    <h2>Join Us</h2>
+    <p>Be part of a passionate developer community!</p>
+    <a href="https://chat.whatsapp.com" class="btn">Join WhatsApp Group</a>
+  </section>
+
+  <!-- Footer -->
+  <footer data-aos="zoom-in-up">
+    <p>© 2025 Career Development Club | All Rights Reserved</p>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
+
+  <!-- JS Files -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
